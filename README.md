@@ -1,4 +1,4 @@
-# Dronedeply-coding-challenge
+# Dronedeploy-coding-challenge
 
 ## Challenge-1
 
@@ -23,8 +23,9 @@ You can assume that the pattern is at 0,0,0 in some global coordinate system and
 
  Each of these steps are heavily commented in the "visualize.py" file along with the usage of inbuilt CV library functions.
 
- Please note that this repository is PRIVATE as of now and I have only shared it with authorized github users.
- Let me know if the access is to be given to any other user(s) or if the repo has to be made public.
+ The output of the modified images at contour and final stage can be found in the 'intermediateoutput' folder.
+ 
+
 
 
 
