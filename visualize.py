@@ -22,4 +22,7 @@ retval, thresholdedimage = cv2.threshold(imgray, 190, 255, cv2.THRESH_BINARY)
 # CHAIN_APPROX_SIMPLE is an approximation method. (We use this method as it saves only 4 boundary points thereby saving a lot of memory).
 contourimage, contours, hierarchy = cv2.findContours(thresholdedimage, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
 
-print (contours)  # check if we get the numpy array of x,y co-ordinates
+# Verify if we get the contour image as expected
+cv2.drawContours(img, contours, -1, (0, 255, 0), 3)
+cv2.imshow("image with contours", img)
+cv2.waitKey()
